@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    background-color: #4267B2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.card {
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    margin: auto;
+    position: relative;
+}
+.scrambled-letters {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hint, .time-left {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+.btn-custom {
+    width: 48%;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+#startGames{
+    display:block;
+    margin: auto;
+    text-align: center;
+}
+.success{
+    text-align: center;
+    margin: auto;
+    color: green;
+}
+.time{
+    width: 50px;
+    height: 50px;
+    border: 2px solid blue ;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container h1{
+    color: white;
+}
+.card-title{
+    color: #4267B2FF;
+}
